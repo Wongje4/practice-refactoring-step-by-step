@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PoliceTest {
+
     @Test
     void should_return_true_when_check_driver_given_driver_age_is_18() {
         //given
