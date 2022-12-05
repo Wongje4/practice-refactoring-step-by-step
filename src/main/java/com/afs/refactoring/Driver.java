@@ -2,13 +2,13 @@ package com.afs.refactoring;
 
 public class Driver {
     private int age;
-    public static final int MIN_ADULT_AGE = 18;
+    private static final int MIN_ADULT_AGE = 18;
 
     public Driver(int age) {
         this.age = age;
     }
 
-    public int getAge() {
+    private int getAge() {
         return age;
     }
 
